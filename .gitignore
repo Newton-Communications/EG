@@ -1,0 +1,13 @@
+
+*.pyc
+/.project
+/.pydevproject
+/dist/
+/EASGen.egg-info/
+.DS_Store
+env
+*.swp
+.idea
+
+/build/
+.remote-sync.json
