@@ -136,6 +136,24 @@ class EASGen:
                     else cls._mark(sample_rate)
                 )
             headers += (header + cls._silence) * 2
+        elif mode == "1822":
+            data = ("\xff") + "\x00" + ("\xab" * 16) + header_data + "\xff"
+            for bit in "".join(format(ord(x), "08b")[::-1] for x in data):
+                header += (
+                    cls._space(sample_rate)
+                    if bit == "0"
+                    else cls._mark(sample_rate)
+                )
+            headers = header + cls._silence
+            data = ("\xff") + ("\xab" * 16) + header_data + "\xff"
+            header = AudioSegment.empty()
+            for bit in "".join(format(ord(x), "08b")[::-1] for x in data):
+                header += (
+                    cls._space(sample_rate)
+                    if bit == "0"
+                    else cls._mark(sample_rate)
+                )
+            headers += (header + cls._silence) * 2
         elif mode == "SAGE":
             data = ("\xab" * 16) + header_data + "\xff"
             for bit in "".join(format(ord(x), "08b")[::-1] for x in data):
@@ -195,6 +213,29 @@ class EASGen:
                 )
             eoms = (cls._silence + eom) * 3
         elif mode == "DIGITAL":
+            for bit in "".join(
+                format(ord(x), "08b")[::-1]
+                for x in "\x00" + ("\xab" * 16) + "NNNN" + ("\xff" * 3)
+            ):
+                eom += (
+                    cls._space(sample_rate)
+                    if bit == "0"
+                    else cls._mark(sample_rate)
+                )
+            data = cls._silence + eom
+            eom = AudioSegment.empty()
+            for bit in "".join(
+                format(ord(x), "08b")[::-1]
+                for x in ("\xab" * 16) + "NNNN" + ("\xff" * 3)
+            ):
+                eom += (
+                    cls._space(sample_rate)
+                    if bit == "0"
+                    else cls._mark(sample_rate)
+                )
+            data += (cls._silence + eom) * 2
+            eoms = data
+        elif mode == "1822":
             for bit in "".join(
                 format(ord(x), "08b")[::-1]
                 for x in "\x00" + ("\xab" * 16) + "NNNN" + ("\xff" * 3)
