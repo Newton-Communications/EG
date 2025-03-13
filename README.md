@@ -48,10 +48,10 @@ play(Alert) ## Play the EAS Message
 <details>
 <summary>Output</summary>
 
-<video controls width="400">
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0001.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/ef98a6a8-a85d-4c7d-a8af-ed52740e7be7
+
+
 </details>
 
 ---
@@ -74,10 +74,10 @@ play(Alert) ## Play the EAS Message
 <details>
 <summary>Output</summary>
 
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0002.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
+
+https://github.com/user-attachments/assets/f87d34eb-9604-4389-9bee-04b055bcb938
+
+
 </details>
 
 ---
@@ -98,10 +98,10 @@ play(Alert) ## Play the EAS Message
 <details>
 <summary>Output</summary>
 
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0003.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
+
+https://github.com/user-attachments/assets/97c9b41e-1c44-4ba2-8077-e13786373378
+
+
 </details>
 
 ---
@@ -119,10 +119,10 @@ EASGen.export_wav("Alert.wav", Alert)
 <details>
 <summary>Output</summary>
 
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0004.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
+
+https://github.com/user-attachments/assets/becc78e7-204b-478b-bc7a-213178affc61
+
+
 </details>
 
 ---
@@ -142,10 +142,10 @@ play(Alert) ## Play the EAS Message
 <details>
 <summary>Output</summary>
 
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0005.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
+
+https://github.com/user-attachments/assets/fdc0fe4e-6a25-47a0-a839-6c0270e94178
+
+
 </details>
 
 ---
@@ -166,10 +166,10 @@ play(Alert) ## Play the EAS Message
 <details>
 <summary>Output</summary>
 
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0006.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
+
+https://github.com/user-attachments/assets/ac28d2e3-b3a2-45f6-bf63-dfb86b6e5aa5
+
+
 </details>
 
 ---
@@ -219,34 +219,40 @@ play(EASGen.genEAS("ZCZC-EAS-DMO-055079+0100-0391810-EAR/FOLF-", True, True, Aud
 <details>
 <summary>Output</summary>
 
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0007.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0008.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0009.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0010.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0011.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0012.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0013.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
+
+https://github.com/user-attachments/assets/e56a3f58-20d0-4594-a6bd-e0cdece92540
+
+
+
+
+https://github.com/user-attachments/assets/6ba4db6e-cd2f-4a15-a3d4-9f579abfbfbc
+
+
+
+
+https://github.com/user-attachments/assets/9b4e4131-fbbb-4630-81bf-bba480483d77
+
+
+
+https://github.com/user-attachments/assets/58a57f4b-5eac-442b-bcac-8de6c9e759e2
+
+
+
+
+
+https://github.com/user-attachments/assets/9e987f1a-5c9b-4e48-94e6-6254df09af6a
+
+
+
+
+https://github.com/user-attachments/assets/ca9918ec-78ea-4612-99ee-923bfe695bc0
+
+
+
+
+https://github.com/user-attachments/assets/0e80b6e9-a53b-4d88-94e9-4d44f6f3019f
+
+
 </details>
 
 ---
@@ -266,10 +272,11 @@ play(Alert) ## Play the NPAS Tones
 <details>
 <summary>Output</summary>
 
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0014.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
+
+
+https://github.com/user-attachments/assets/9f22a1a7-dd22-4e1a-89b4-179a38cd2206
+
+
 </details>
 
 ---
@@ -287,10 +294,11 @@ play(Alert) ## Play the WEA Tones
 <details>
 <summary>Output</summary>
 
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0015.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
+
+
+https://github.com/user-attachments/assets/cfd3df91-053d-445b-a84e-79bdb2b9ca72
+
+
 </details>
 
 ---
@@ -309,10 +317,10 @@ play(Alert) ## Play the EAS Message
 <details>
 <summary>Output</summary>
 
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0016.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
+
+https://github.com/user-attachments/assets/511d82af-7c71-4e09-89e3-25b51c461b18
+
+
 </details>
 
 ---
