@@ -74,10 +74,10 @@ play(Alert) ## Play the EAS Message
 <details>
 <summary>Output</summary>
 
-<audio controls>
-  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0002.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
+
+https://github.com/user-attachments/assets/f87d34eb-9604-4389-9bee-04b055bcb938
+
+
 </details>
 
 ---
