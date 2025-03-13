@@ -4,7 +4,7 @@ import os
 # Third-Party
 from setuptools import setup
 
-with open(os.path.join(os.path.dirname(__file__), "README.md")) as readme:
+with open(os.path.join(os.path.dirname(__file__), "README.md"), encoding="utf-8") as readme:
     README = readme.read()
 
 # allow setup.py to be run from any path
@@ -13,7 +13,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name="EASGen-Remastered",
     packages=["EASGen"],
-    version="0.1.13.1",
+    version="0.1.13.2",
     description="A Python library to generate EAS SAME Audio using Raw Data - Remastered",
     author="secludedhusky",
     author_email="secludedhusky@chesbaycommunications.com",
