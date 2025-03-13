@@ -1,6 +1,7 @@
 # Third-Party
 from pydub import AudioSegment
 from pydub.generators import Sine
+from typing import Dict, List
 
 
 class EASGen:
@@ -378,7 +379,7 @@ class EASGen:
         sample_rate: int = 24000,
         channels: int = 1,
         bitrate: str = "128k",
-        metadata: dict[str, str] = {},
+        metadata: Dict[str, str] = {}
     ) -> None:
         """Proper MP3 File exporting
 
@@ -412,8 +413,8 @@ class EASGen:
         sample_rate: int = 24000,
         channels: int = 1,
         bitrate: str = "128k",
-        metadata: dict[str, str] = {},
-        params: list[str] = [],
+        metadata: Dict[str, str] = {},
+        params: List[str] = [],
     ) -> None:
         """Custom File exporting
 

@@ -8,6 +8,6 @@
 env
 *.swp
 .idea
-
+test*.*
 /build/
 .remote-sync.json
