@@ -47,16 +47,7 @@ play(Alert) ## Play the EAS Message
 
 <details>
 <summary>Output</summary>
-
-<figure class="video_container">
-  <iframe src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0001.mp4" frameborder="0" allowfullscreen="true"> 
-</iframe>
-</figure>
-
-<video controls width="400">
-  <source src="" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/f5a8dd73-aa39-4675-8262-786857a754a3
 </details>
 
 ---
