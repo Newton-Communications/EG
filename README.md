@@ -1,6 +1,6 @@
 # 🌩️ **EASGen**: A Fast Python EAS Generation Library
 
-![EASGen](https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/img/RefactoredEASGen.png)
+![EASGen](https://github.com/Newton-Communications/EG/blob/main/doc/img/RefactoredEASGen.png?raw=true)
 
 EASGen is a powerful Python library for translating **EAS (Emergency Alert System)** ZCZC strings or other data into **SAME (Specific Area Messaging)** headers. It includes robust support for individual headers, attention tones, EOM generation, emulation modes, and WEA tone generation, ensuring a seamless experience for encoding emergency messages.
 
@@ -49,7 +49,7 @@ play(Alert) ## Play the EAS Message
 <summary>Output</summary>
 
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0001.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0001.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 </details>
@@ -75,7 +75,7 @@ play(Alert) ## Play the EAS Message
 <summary>Output</summary>
 
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0002.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0002.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 </details>
@@ -99,7 +99,7 @@ play(Alert) ## Play the EAS Message
 <summary>Output</summary>
 
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0003.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0003.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 </details>
@@ -120,7 +120,7 @@ EASGen.export_wav("Alert.wav", Alert)
 <summary>Output</summary>
 
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0004.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0004.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 </details>
@@ -143,7 +143,7 @@ play(Alert) ## Play the EAS Message
 <summary>Output</summary>
 
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0005.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0005.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 </details>
@@ -167,7 +167,7 @@ play(Alert) ## Play the EAS Message
 <summary>Output</summary>
 
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0006.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0006.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 </details>
@@ -220,31 +220,31 @@ play(EASGen.genEAS("ZCZC-EAS-DMO-055079+0100-0391810-EAR/FOLF-", True, True, Aud
 <summary>Output</summary>
 
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0007.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0007.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0008.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0008.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0009.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0009.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0010.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0010.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0011.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0011.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0012.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0012.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0013.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0013.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 </details>
@@ -267,7 +267,7 @@ play(Alert) ## Play the NPAS Tones
 <summary>Output</summary>
 
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0014.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0014.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 </details>
@@ -288,7 +288,7 @@ play(Alert) ## Play the WEA Tones
 <summary>Output</summary>
 
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0015.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0015.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 </details>
@@ -310,7 +310,7 @@ play(Alert) ## Play the EAS Message
 <summary>Output</summary>
 
 <audio controls>
-  <source src="https://github.com/Newton-Communications/EG/blob/new-gen-modes/doc/audio/docs0016.wav" type="audio/wav">
+  <source src="https://github.com/Newton-Communications/EG/raw/refs/heads/main/doc/audio/docs0016.wav" type="audio/wav">
   Your browser does not support the audio tag.
 </audio>
 </details>
