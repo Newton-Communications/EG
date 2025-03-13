@@ -13,7 +13,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name="EASGen-Remastered",
     packages=["EASGen"],
-    version="0.1.13.2",
+    version="0.1.13.3",
     description="A Python library to generate EAS SAME Audio using Raw Data - Remastered",
     author="secludedhusky",
     author_email="secludedhusky@chesbaycommunications.com",
@@ -29,7 +29,7 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
-        "Programming Language :: Pthon :: 3.8",
+        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
