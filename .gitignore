@@ -11,3 +11,4 @@ env
 test*.*
 /build/
 .remote-sync.json
+EASGen_*.egg-info/
